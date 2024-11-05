@@ -5,6 +5,10 @@ import { PostsComponent } from './components/posts/posts.component';
 
 const routes: Routes = [
   {
+    path: '',
+    component: PostsComponent,
+  },
+  {
     path: 'details/:id',
     component: PostDetailComponent,
   },
